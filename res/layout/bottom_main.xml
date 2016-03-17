@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:layout_alignParentBottom="true"
+    android:background="#efedea"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <EditText
+        android:id="@+id/taskEt"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:layout_toLeftOf="@+id/sendRl"
+        android:background="@drawable/line_edit"
+        android:hint="@string/task_hint"
+        android:maxHeight="100dp"
+        android:paddingLeft="7dp"
+        android:textColor="@color/color_4d"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/sendRl"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_send_btn"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_send" />
+    </RelativeLayout>
+
+</RelativeLayout>

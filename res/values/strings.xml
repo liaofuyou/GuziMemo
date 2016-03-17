@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">谷子便签</string>
+    <string name="task_hint">写便签</string>
+    <string name="slogan">便签空空，呼吸轻松</string>
+    <string name="about_text1">廖付有</string>
+    <string name="about_text2">灰常感谢你使用我开发的应用</string>
+    <string name="about_text3">这是我无聊时开发出来的</string>
+    <string name="about_text4">希望你喜欢</string>
+    <string name="about_text5">新浪微博：@付有V</string>
+    <string name="about_text6">如果有不好的地方请联系我</string>
+    <string name="about_text7">版权所有：©廖付有</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

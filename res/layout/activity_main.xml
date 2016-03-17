@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_wallpaper"
+    android:backgroundTintMode="screen"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/titleRl"
+        layout="@layout/title_main" />
+
+    <me.guzi.mome.view.SlideCutListView
+        android:id="@+id/taskLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomRl"
+        android:layout_below="@id/titleRl"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:transcriptMode="normal" >
+    </me.guzi.mome.view.SlideCutListView>
+
+    <include
+        android:id="@+id/bottomRl"
+        layout="@layout/bottom_main" />
+
+    <TextView
+        android:id="@+id/sloganTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:text="@string/slogan" />
+
+</RelativeLayout>
